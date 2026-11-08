@@ -5,9 +5,12 @@
 ```json
 {
   "mcpServers": {
-    "mcp-no-readme-test": {
-      "command": "python",
-      "args": ["server.py"]
+    "memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ]
     }
   }
 }
