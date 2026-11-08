@@ -1,16 +1,11 @@
-# MCP Stdio Test Server
-
-## MCP Configuration
-
-```json
 {
   "mcpServers": {
-    "memory": {
-      "command": "npx",
+    "12306-mcp": {
       "args": [
         "-y",
-        "@modelcontextprotocol/server-memory"
-      ]
+        "12306-mcp"
+      ],
+      "command": "npx"
     }
   }
 }
